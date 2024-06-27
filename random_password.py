@@ -58,3 +58,8 @@ for i in range(part2):
 # shuffle result
 random.shuffle(result)
 
+
+# join result
+password = "".join(result)
+print("your password => ", password)
+
