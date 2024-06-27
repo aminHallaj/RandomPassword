@@ -5,10 +5,10 @@ import string
 
 
 # Save the characters in the list
-srt1 = list(string.ascii_lowercase)
-srt2 = list(string.ascii_uppercase)
-srt3 = list(string.digits)
-srt4 = list(string.punctuation)
+str1 = list(string.ascii_lowercase)
+str2 = list(string.ascii_uppercase)
+str3 = list(string.digits)
+str4 = list(string.punctuation)
 
 
 # Entering the number of passwords from users
@@ -30,3 +30,9 @@ while True:
     except:
         print("Please enter only numbers. ")
         user_input = input("Please, Enter your number again: ")
+
+# shuffle all lists
+random.shuffle(str1)
+random.shuffle(str2)
+random.shuffle(str3)
+random.shuffle(str4)
