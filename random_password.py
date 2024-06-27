@@ -31,8 +31,14 @@ while True:
         print("Please enter only numbers. ")
         user_input = input("Please, Enter your number again: ")
 
+
 # shuffle all lists
 random.shuffle(str1)
 random.shuffle(str2)
 random.shuffle(str3)
 random.shuffle(str4)
+
+
+# calculate 30% & 20% of number of characters
+part1 = round(number * (30/100))
+part2 = round(number * (20/100))
