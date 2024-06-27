@@ -42,3 +42,15 @@ random.shuffle(str4)
 # calculate 30% & 20% of number of characters
 part1 = round(number * (30/100))
 part2 = round(number * (20/100))
+
+
+# generation of the password (60% letters and 40% digits & punctuations)
+result = []
+
+for i in range(part1):
+    result.append(str1[i])
+    result.append(str2[i])
+
+for i in range(part2):
+    result.append(str3[i])
+    result.append(str4[i])
