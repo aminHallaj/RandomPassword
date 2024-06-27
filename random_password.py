@@ -1,5 +1,4 @@
 # import modules
-
 import random
 import string
 
@@ -54,6 +53,7 @@ for i in range(part1):
 for i in range(part2):
     result.append(str3[i])
     result.append(str4[i])
+
 
 # shuffle result
 random.shuffle(result)
